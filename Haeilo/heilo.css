@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+}
+
+.nav .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav .container .nav-logo{
+    width: 50%;
+}
+
+.nav .container .nav-logo h3{
+    font-size: 28px;
+    color: white;
+}
+    
+.nav .container .nav-link{
+    width: 50%;
+    justify-self: flex-end;
+}
+.nav .container .nav-link ul{
+    height: 70px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav .container .nav-link ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav .container .nav-link ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    transition: all 0.5s;
+}
+ 
+.nav .container .nav-link ul li:hover{}
+    
+.nav .container .nav-link ul li a:hover{
+    color: #777;
+}
+
+.header{
+    width: 100%;
+    height: 722px;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-p{
+    text-transform: uppercase;
+    font-size: 15;
+    border-bottom: 2px solid;
+    padding: 20px 0px;
+    color: rgba(255, 255, 255, 0.65);
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+}
+
+.header .container h1{
+    font-size: 80px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.feature{
+    width: 100%;
+    height: 800px;
+    background-color: whitesmoke;
+    padding-bottom: 50px;
+}
+
+.feature .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature .container .feat{
+    width: 47%;
+    height: 500px;
+}
+
+.feature .container .feat .feat-img{
+    width: 100%;
+    height: 285px;
+}
+
+.feature .container .feat .feat-img img{
+    max-width: 100%;
+}
+
+.feature .container .feat .feat-text{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: white;
+}
+
+.feature .container .feat .feat-text .head-p{
+    padding: 10;
+    margin-bottom: 5px;
+    color: #555;
+}
+.h2{
+    margin: 2 0 25px;
+    font-size: 26px;
+    font-weight: 100;
+}
+.feature .container .feat .feat-text .pp{
+    color: #777;
+    padding: 0 45px;
+    font-size: 17;
+    margin-bottom: 30px;
+}
+    
+.feature .container .feat .feat-text button{
+    padding: 10px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border:  2px solid #777;
+}
+
+.morbi{
+    width: 100%;
+    height: 250px;
+    background-image: url(images/slide03.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center
+}
+
+.morbi .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.morbi .container h2{
+    color: white;
+}
+
+.morbi .container p{
+    padding-bottom: 14px;
+}
+
+.images{
+    width: 100%;
+    height: 1050px;
+    background-color: whitesmoke;
+}
+
+.images .container .images-text{
+    height: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.images .container .images-text p{
+    padding-top: 50px;
+    color: #555;
+    font-size: 12px;
+}
+    
+.images .container .gallery{
+    height: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.images .container .gallery .img{
+    width:45%;
+    background-color: whitesmoke;
+}
+
+.images .container .gallery .img img{
+    max-width: 100%;
+    padding: 25px;
+    background-color: white;
+}
+
+.copy{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: #bbb;
+}
+
+.copy .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
